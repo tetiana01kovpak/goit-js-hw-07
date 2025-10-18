@@ -9,6 +9,7 @@ form.addEventListener('submit', event => {
 
   if (!emailValue || !passwordValue) {
     alert('Some form fields are not filled in');
+    return;
   }
 
   const data = {
